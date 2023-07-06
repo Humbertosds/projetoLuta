@@ -1,0 +1,28 @@
+.fightarea {
+    display: flex;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#person,
+#monster {
+    flex: 1;
+}
+
+.lifebar {
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.lifebar .bar {
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.log {
+    border: 1px dotted #999;
+    height: 500px;
+    overflow-y: scroll;
+}
