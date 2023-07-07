@@ -7,8 +7,8 @@ let log = new Log(document.querySelector('.log'))
 
 
 const stage = new Stage(
-    warrior,
-    goblin,
+    wizard,
+    giant,
     document.querySelector('#person'),
     document.querySelector('#monster'),
     log
