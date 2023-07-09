@@ -109,11 +109,6 @@ class Stage {
             this.log.addMsg(`${attacked.name} conseguiu defender`)
         }
 
-
-
-
-
-
         this.update();
     }
 }

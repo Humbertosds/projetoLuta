@@ -5,7 +5,6 @@ let giant = new Giant()
 
 let log = new Log(document.querySelector('.log'))
 
-
 const stage = new Stage(
     wizard,
     giant,
@@ -15,12 +14,6 @@ const stage = new Stage(
 )
 
 stage.start()
-
-
-
-
-
-
 
 console.log(warrior.name)
 console.log(warrior.attack)
@@ -41,4 +34,3 @@ console.log(giant.name)
 console.log(giant.attack)
 console.log(giant.life)
 console.log(giant.defense)
-
